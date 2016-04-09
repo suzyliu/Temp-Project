@@ -1,4 +1,5 @@
 public class TheMotivator {
+	private ArrayList<String> events = new ArrayList<String>();
 	public void thoughtForTheDay (int score) {
 		System.out.println("Some new thoughts!");
 		if (score == 100)
@@ -13,10 +14,13 @@ public class TheMotivator {
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
 		tm.upcomingEvents();
+		tm.thoughtForTheDay(100);
+		tm.createEvents();
 	}
 	public void upcomingEvents(){
 		System.out.println("Kind of header for the the motivator");
-		 System.out.println("Dinner at Katie's house");
+		for (String event:events)
+		 System.out.println("Party blabla");
 	}
 }
 
