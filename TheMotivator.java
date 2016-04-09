@@ -1,6 +1,6 @@
 public class TheMotivator {
 	public void thoughtForTheDay (int score) {
-
+		System.out.println("Some new thoughts!");
 		if (score == 100)
 			System.out.println("You're awesome");
 		else if (score > 90)
