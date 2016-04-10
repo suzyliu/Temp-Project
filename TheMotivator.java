@@ -18,9 +18,9 @@ public class TheMotivator {
 		tm.createEvents();
 	}
 	public void upcomingEvents(){
-		System.out.println("Kind of header for the the motivator");
+		System.out.println("Join use!");
 		for (String event:events)
-		 System.out.println("Party blabla");
+		 System.out.println(event);
 	}
 }
 
