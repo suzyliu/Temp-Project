@@ -1,0 +1,16 @@
+*   Meged event handling
+|\  
+| * Add multiple events
+* | Different events
+|/  
+*   Merge branch 'branch_v2' into branch_v1
+|\  
+| * Added header
+| * Added events
+* | New thoughts for the day
+|/  
+* Refactored feedback to be thoughtFortheday
+* Add FnOne
+* Add file
+* test page
+* Readme file
